@@ -1,14 +1,16 @@
 import React from "react";
-import Sidebar from "../sidebar";
+import "./style.css";
 import { Link } from "react-router-dom";
-export default function Login() {
+import Sidebar from "../sidebar";
+
+export default function Home() {
   return (
     <div className="main">
       <div className="sidebar">
         <Sidebar />
       </div>
       <div className="data">
-        <p>Login pages</p>
+        <p>Home pages</p>
       </div>
     </div>
   );
