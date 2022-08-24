@@ -6,7 +6,7 @@ export default function Sidebar() {
       <Link to="/">
         <h3>Home</h3>
       </Link>
-      <Link to="/Login">
+      <Link to="/Login"> 
         <h3>Login</h3>
       </Link>
       <Link to="About">
